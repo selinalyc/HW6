@@ -1,0 +1,21 @@
+function setup() { 
+  createCanvas(400, 400);
+	background(255);
+	fill(0);
+	rect(20,20,360,360);
+	fill(255);
+	rect(40,40,320,320);
+	
+	noStroke();
+	fill(100,60,100);
+  rect(45,45,155,155);
+	noStroke();
+	fill(120,150,60);
+  rect(200,45,155,155);
+	noStroke();
+	fill(145,140,120);
+  rect(45,200,155,155);
+	noStroke();
+	fill(230,100,0);
+  rect(200,200,155,155);
+}
